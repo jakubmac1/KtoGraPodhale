@@ -1,0 +1,43 @@
+body {
+	background: rgba(46, 71, 48, 0.8);
+	font-family: 'Oswald', 'Futura', sans-serif;
+}
+#wrapper {
+	margin-top: 1% !important;
+
+}
+#wrapper > h1{
+	margin-bottom: 25px;
+	color: white;
+	font-family: 'Anton', sans-serif;
+	font-size: 70px;
+	text-align: center;
+}
+#content {
+	background: beige;
+	padding: 25px;
+	border-radius: 15px;
+}
+#content > h2 {
+	font-size: 18px;
+	text-align: center;
+	padding-top: 0;
+}
+.t10 {
+	margin-top: 10px;
+}
+.t20 {
+	margin-top: 20px;
+}
+.todo-completed {
+	text-decoration: line-through;
+	background: rgba(149, 165, 166, .3);
+}
+footer {
+	margin-top: 20px;
+	color: white;
+}
+
+.list-group-item {
+    color: black;
+    }
