@@ -1,5 +1,7 @@
 body {
-	background: rgba(46, 71, 48, 0.8);
+	/*background: rgba(46, 71, 48, 0.8);*/
+	background-image: url("links/bg4.jpg");
+	background-attachment: fixed;
 	font-family: 'Oswald', 'Futura', sans-serif;
 }
 #wrapper {
