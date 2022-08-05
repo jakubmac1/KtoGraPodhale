@@ -79,10 +79,10 @@ WSGI_APPLICATION = 'ktogra.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'ktogra',
-        'USER': 'root',
-        'PASSWORD': '',
-        'HOST': 'localhost',
+        'NAME': '`heroku_b4f2f3f0b28f93d`',
+        'USER': 'ba4177b233cb96',
+        'PASSWORD': '958e1e93',
+        'HOST': 'us-cdbr-east-06.cleardb.net',
         'PORT': '3306'
     }
 }
