@@ -3,40 +3,44 @@ body {
 	background-image: url("links/bg4.jpg");
 	background-attachment: fixed;
 	font-family: 'Oswald', 'Futura', sans-serif;
+	max-width: 100%;
 }
 #wrapper {
 	margin-top: 1% !important;
+	max-width: 100%;
+	min-width: 90%;
 
 }
 #wrapper > h1{
-	margin-bottom: 25px;
+	margin-bottom: 2%   ;
 	color: white;
 	font-family: 'Anton', sans-serif;
-	font-size: 70px;
+	font-size: 3.5em;
 	text-align: center;
 }
 #content {
 	background: beige;
-	padding: 25px;
-	border-radius: 15px;
+	padding: 2%;
+	border-radius: 20px;
 }
 #content > h2 {
-	font-size: 18px;
+	font-size: 18%;
 	text-align: center;
 	padding-top: 0;
 }
 .t10 {
-	margin-top: 10px;
+	margin-top: 10%;
 }
 .t20 {
-	margin-top: 20px;
+	margin-top: 20%;
 }
 .todo-completed {
 	text-decoration: line-through;
 	background: rgba(149, 165, 166, .3);
 }
 footer {
-	margin-top: 20px;
+	margin-top: 2%;
+	margin-bottom: 2%;
 	color: white;
 }
 
